@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  tomahawk.service.products:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
