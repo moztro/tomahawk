@@ -5,7 +5,7 @@ services:
     image: tomahawk.service.products
     build:
       context: .
-      dockerfile: tomahawk.service.products/Dockerfile
+      dockerfile: src/service/products/tomahawk.service.products/Dockerfile
 
   tomahawk.client.angular:
     image: tomahawk.client.angular
