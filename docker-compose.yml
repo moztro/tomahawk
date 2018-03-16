@@ -6,3 +6,10 @@ services:
     build:
       context: .
       dockerfile: tomahawk.service.products/Dockerfile
+
+  tomahawk.client.angular:
+    image: tomahawk.client.angular
+    build:
+      context: .
+      dockerfile: src/client/web/spa/tomahawk.client.angular/Dockerfile
+

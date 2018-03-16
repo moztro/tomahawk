@@ -37,7 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tomahawk.domain.products", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "billing", "billing", "{1F9C43C4-AB26-4FB2-A807-2735D4425867}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tomahawk.domain.billing", "src\domain\billing\tomahawk.domain.billing\tomahawk.domain.billing.csproj", "{2A11C2E8-821C-41CB-91CD-5771ED85C8F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tomahawk.domain.billing", "src\domain\billing\tomahawk.domain.billing\tomahawk.domain.billing.csproj", "{2A11C2E8-821C-41CB-91CD-5771ED85C8F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "spa", "spa", "{4DCE8477-88C2-4672-8D82-F7B838982B8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tomahawk.client.angular", "src\client\web\spa\tomahawk.client.angular\tomahawk.client.angular.csproj", "{6E90D368-026D-40C8-9D11-2223B8AEC85C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mvc", "mvc", "{6BFA9CFA-401D-475D-BF89-37542D80D6FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +67,10 @@ Global
 		{2A11C2E8-821C-41CB-91CD-5771ED85C8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A11C2E8-821C-41CB-91CD-5771ED85C8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A11C2E8-821C-41CB-91CD-5771ED85C8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E90D368-026D-40C8-9D11-2223B8AEC85C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E90D368-026D-40C8-9D11-2223B8AEC85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E90D368-026D-40C8-9D11-2223B8AEC85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E90D368-026D-40C8-9D11-2223B8AEC85C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +92,9 @@ Global
 		{67C7BCBC-7C4D-4146-AA98-CFFED198D4CE} = {BBF97689-364B-4401-830C-0FDB69A286EC}
 		{1F9C43C4-AB26-4FB2-A807-2735D4425867} = {9227EC5B-449B-4EDC-9C5E-A7E51023BC34}
 		{2A11C2E8-821C-41CB-91CD-5771ED85C8F9} = {1F9C43C4-AB26-4FB2-A807-2735D4425867}
+		{4DCE8477-88C2-4672-8D82-F7B838982B8F} = {7EBD1015-66CF-4341-9C13-6DA2C14AA9E3}
+		{6E90D368-026D-40C8-9D11-2223B8AEC85C} = {4DCE8477-88C2-4672-8D82-F7B838982B8F}
+		{6BFA9CFA-401D-475D-BF89-37542D80D6FB} = {7EBD1015-66CF-4341-9C13-6DA2C14AA9E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {369CB163-F141-4502-9505-3B26B5A8FCFB}
