@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27130.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tomahawk.service.products", "src\service\products\tomahawk.service.products\tomahawk.service.products.csproj", "{9457EBDC-F26C-4A49-BC18-C8C730B40CA2}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4334ADA5-D565-49DA-92E5-00EE667890E6}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A5CE317-AFDC-4C6F-A757-9903615409E9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "service", "service", "{8D15F6A8-F26D-4894-BA55-85DABD44CDDE}"
@@ -41,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tomahawk.domain.billing", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "spa", "spa", "{4DCE8477-88C2-4672-8D82-F7B838982B8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tomahawk.client.angular", "src\client\web\spa\tomahawk.client.angular\tomahawk.client.angular.csproj", "{6E90D368-026D-40C8-9D11-2223B8AEC85C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tomahawk.client.angular", "src\client\web\spa\tomahawk.client.angular\tomahawk.client.angular.csproj", "{6E90D368-026D-40C8-9D11-2223B8AEC85C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mvc", "mvc", "{6BFA9CFA-401D-475D-BF89-37542D80D6FB}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A5A72520-3F30-48B2-8CA3-8F2F0E00E645}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,10 +55,6 @@ Global
 		{9457EBDC-F26C-4A49-BC18-C8C730B40CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9457EBDC-F26C-4A49-BC18-C8C730B40CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9457EBDC-F26C-4A49-BC18-C8C730B40CA2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4334ADA5-D565-49DA-92E5-00EE667890E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4334ADA5-D565-49DA-92E5-00EE667890E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4334ADA5-D565-49DA-92E5-00EE667890E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4334ADA5-D565-49DA-92E5-00EE667890E6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{67C7BCBC-7C4D-4146-AA98-CFFED198D4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{67C7BCBC-7C4D-4146-AA98-CFFED198D4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67C7BCBC-7C4D-4146-AA98-CFFED198D4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -71,6 +67,10 @@ Global
 		{6E90D368-026D-40C8-9D11-2223B8AEC85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E90D368-026D-40C8-9D11-2223B8AEC85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E90D368-026D-40C8-9D11-2223B8AEC85C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A72520-3F30-48B2-8CA3-8F2F0E00E645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A72520-3F30-48B2-8CA3-8F2F0E00E645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A72520-3F30-48B2-8CA3-8F2F0E00E645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A72520-3F30-48B2-8CA3-8F2F0E00E645}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

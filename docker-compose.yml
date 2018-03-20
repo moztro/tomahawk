@@ -1,15 +1,15 @@
 version: '3'
 
 services:
-  tomahawk.service.products:
-    image: tomahawk.service.products
-    build:
-      context: .
-      dockerfile: src/service/products/tomahawk.service.products/Dockerfile
-
   tomahawk.client.angular:
     image: tomahawk.client.angular
     build:
       context: .
       dockerfile: src/client/web/spa/tomahawk.client.angular/Dockerfile
+
+  tomahawk.service.products:
+    image: tomahawk.service.products
+    build:
+      context: .
+      dockerfile: src/service/products/tomahawk.service.products/Dockerfile
 
